@@ -1,0 +1,4 @@
+const hamburger=document.querySelector('#mobile');const mainMenu=document.querySelector('.allmenu');hamburger.addEventListener("click",()=>{hamburger.classList.toggle("active");mainMenu.classList.toggle("active")})
+document.querySelectorAll(".allmenu").forEach(n=>n.addEventListener("click",()=>{hamburger.classList.remove("active");mainMenuMenu.classList.remove("active")}))
+window.addEventListener("scroll",function(){var scrollWhite=document.querySelector("nav");scrollWhite.classList.toggle("sticky",window.scrollY>0)})
+new Swiper('.just',{speed:600,loop:!0,autoplay:{delay:5000,disableOnInteraction:!1},slidesPerView:'auto',pagination:{el:'.swiper-pagination',type:'bullets',clickable:!0}})
